@@ -8,7 +8,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",
