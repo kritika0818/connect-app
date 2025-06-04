@@ -4,7 +4,7 @@ require('dotenv').config();  // Load environment variables from .env
 const { Pool } = require('pg');
 
 const pool = new Pool({
-  connectionString: process.env.PG_CONNECTION_STRING,
+  connectionString: process.env.DATABASE_URL,  // Use DATABASE_URL for Railway
   ssl: {
     rejectUnauthorized: false,  // Required for Railway SSL connection
   },

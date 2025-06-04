@@ -1,15 +1,18 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "description": "Backend for Connect App using Express, Prisma, and PostgreSQL",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
+  "jest": {
+  "setupFiles": ["./jest.setup.js"]
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@prisma/client": "^6.8.2",
     "bcryptjs": "^3.0.2",
@@ -18,5 +21,9 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "prisma": "^6.8.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
   }
 }

@@ -1,5 +1,5 @@
-const { PrismaClient } = require('@prisma/client');
-const prisma = new PrismaClient();
+// controllers/authController.js
+const prisma = require('../prismaClient');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
@@ -35,7 +35,7 @@ exports.signup = async (req, res) => {
       expiresIn: '7d',
     });
 
-    res.json({ token, username: user.username, email: user.email });
+    res.status(201).json({ token, username: user.username, email: user.email });  // <--- here
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: 'Server error' });
