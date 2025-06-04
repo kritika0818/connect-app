@@ -101,7 +101,7 @@ connect-app/
 ---
 
 ## To view the working of Connect-App
-[Click Here]([https://github.com/kritika0818/connect-app/edit/main/README.md](https://www.linkedin.com/posts/kritika-magnani-7473022b2_reactnative-fullstackdevelopment-firebaseauth-activity-7336098474389553152-dYRJ?utm_source=share&utm_medium=member_android&rcm=ACoAAEsm1acB2-uZmRtVTPZpU2rWHTBV3ysDAvE))
+[Click here to view the demo](https://www.linkedin.com/posts/kritika-magnani-7473022b2_reactnative-fullstackdevelopment-firebaseauth-activity-7336098474389553152-dYRJ?utm_source=share&utm_medium=member_android&rcm=ACoAAEsm1acB2-uZmRtVTPZpU2rWHTBV3ysDAvE)
 
 ---
 
