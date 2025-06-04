@@ -36,8 +36,10 @@ This is a full-stack project I’ve crafted to combine both frontend and backend
 
 ## Folder Structure
 
-**connect-app/**
+connect-app/
+
 ├── client/ → React Native app
+
 └── server/ → Backend API with PostgreSQL
 
 ---
