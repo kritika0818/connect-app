@@ -36,12 +36,12 @@ This is a full-stack project I’ve crafted to combine both frontend and backend
 
 ## Folder Structure
 
-connect-app/
+**connect-app/**
 ├── client/ → React Native app
 └── server/ → Backend API with PostgreSQL
 
 ---
 
-## 🎯 Why I Built This
+## Why I Built This
 
 I wanted to create a real-world, full-stack app that brings together everything I’ve learned — from mobile UI and navigation to building secure APIs and managing a database. This project is part of my journey to becoming a better developer and building apps that feel good to use.
