@@ -6,11 +6,11 @@ import {
   getAuth,
   getReactNativePersistence,
   initializeAuth,
-} from 'firebase/auth/react-native'; // ✅ Required for React Native
+} from 'firebase/auth/react-native'; 
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCJmEs6Ju6-rZyX1OcUN7khTVBdIVHDSfk',
+  apiKey: '*********',
   authDomain: 'pcon-c636f.firebaseapp.com',
   projectId: 'pcon-c636f',
   storageBucket: 'pcon-c636f.appspot.com',
