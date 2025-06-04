@@ -45,15 +45,6 @@ connect-app/
 
 ---
 
-##  Demo Credentials
-
-Use this account to test app features:
-
-Email: demo@connect.com
-Password: 123456
-
----
-
 ##  Installation & Setup
 
 ###  Backend
