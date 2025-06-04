@@ -1,49 +1,141 @@
-## Connect App
+#  Connect App
 
-**Connect App** is a mobile application I’ve built using **React Native** for the frontend and **Node.js** with **PostgreSQL** for the backend. It’s designed to help users **sign up, log in, manage their profiles**, and explore different **event types** — all through a clean and smooth interface.
-
-This is a full-stack project I’ve crafted to combine both frontend and backend skills into one cohesive app!
+A full-stack mobile app built with **React Native**, **Node.js**, **PostgreSQL**, and **Firebase**. Connect App allows users to seamlessly log in, manage their profiles, and explore or create events — all from their phones.
 
 ---
 
-## What You Can Do
+## 🛠 Tech Stack
 
-- **Create an account** or **log in** securely  
-- **Edit your profile**, including uploading a profile picture  
-- **Browse and explore event types** through a tab-based interface  
-- All data is connected to a **PostgreSQL database** via custom-built REST APIs
-
----
-
-## Tech Used
-
-**Frontend (Mobile)**:
-- React Native (with Expo)
-- React Navigation
-- Redux (for state management)
-
-**Backend**:
-- Node.js + Express
-- PostgreSQL (hosted on Railway)
-- Prisma ORM
-
-**Other Tools**:
-- Firebase (for image uploads)
-- Railway (cloud deployment)
-- GitHub for version control
+- **Frontend**: React Native (Expo), React Navigation  
+- **Backend**: Node.js, Express  
+- **Database**: PostgreSQL (hosted on Railway)  
+- **Authentication**: Firebase Auth  
+- **Cloud Storage**: Firebase Storage  
+- **Other Tools**: GitHub Actions (CI/CD), Jest, Railway, Multer
 
 ---
 
-## Folder Structure
+##  Features
+
+- 🔐 User authentication with Firebase  
+- 🧾 User signup, login, and logout  
+- 🖼 Profile management with image upload  
+- 📅 Event listing and detailed event view  
+- 🔗 Full integration of frontend, backend, and PostgreSQL  
+- 💾 Firebase for media and user session handling  
+- 🛠 Planned: Notifications, social login, push alerts
+
+---
+
+##  Project Structure
 
 connect-app/
 
-├── client/ → React Native app
+├── client/ # React Native frontend
 
-└── server/ → Backend API with PostgreSQL
+├── server/ # Express backend
+
+│ ├── routes/ # API routes
+
+│ ├── controllers/ # Request logic
+
+│ └── db/ # PostgreSQL config
+
+└── .github/workflows/ # GitHub Actions (CI/CD)
 
 ---
 
-## Why I Built This
+##  Demo Credentials
 
-I wanted to create a real-world, full-stack app that brings together everything I’ve learned — from mobile UI and navigation to building secure APIs and managing a database. This project is part of my journey to becoming a better developer and building apps that feel good to use.
+Use this account to test app features:
+
+Email: demo@connect.com
+Password: 123456
+
+---
+
+##  Installation & Setup
+
+###  Backend
+
+1. Clone the repo & navigate:
+   ```bash
+   git clone https://github.com/kritika0818/connect-app.git
+   cd connect-app/server
+2. Install dependencies:
+   ```bash
+   npm install
+3. Create .env:
+   ```bash
+   PORT=5000
+   DATABASE_URL=your_postgres_url
+   FIREBASE_API_KEY=your_key
+4. Start the server:
+   ```bash
+   node index.js
+
+---
+
+##  Frontend
+1. Navigate to client folder:
+   ```bash
+   cd ../client
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start app with expo:
+   ```bash
+   npx expo start
+4.  Scan QR code in Expo Go app on your phone.
+
+---
+
+##  API Endpoints
+| Method | Endpoint           | Description             |
+| ------ | ------------------ | ----------------------- |
+| POST   | `/api/auth/signup` | Register new user       |
+| POST   | `/api/auth/login`  | Login user              |
+| PUT    | `/api/users/:id`   | Update user profile     |
+| GET    | `/api/users/:id`   | Get profile by ID       |
+| GET    | `/api/events`      | Fetch all events        |
+| GET    | `/api/events/:id`  | Get event details by ID |
+
+---
+
+##  Testing
+- Jest + Supertest setup for backend routes
+- React Native Testing Library planned for components
+- GitHub Actions CI runs tests automatically on push (see .github/workflows/)
+
+---
+
+##  Screenshots
+
+
+---
+
+##  Contribution Guidelines
+- Fork the repository
+- Create your feature branch (git checkout -b feature/YourFeature)
+- Commit your changes (git commit -m 'Add something')
+- Push your branch (git push origin feature/YourFeature)
+- Open a pull request
+
+---
+
+##  Future Improvements
+- Push notifications (Expo/Firebase Cloud Messaging)
+- Google or social login
+- Publish to Play Store
+- Invite-based event joining
+
+---
+
+##  Feedback
+Found a bug? Have an idea?
+Open an issue here
+or connect with me on LinkedIn
+
+---
+
+# Star this repo if you like it!
