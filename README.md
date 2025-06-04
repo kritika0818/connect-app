@@ -4,7 +4,7 @@ A full-stack mobile app built with **React Native**, **Node.js**, **PostgreSQL**
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend**: React Native (Expo), React Navigation  
 - **Backend**: Node.js, Express  
@@ -17,13 +17,13 @@ A full-stack mobile app built with **React Native**, **Node.js**, **PostgreSQL**
 
 ##  Features
 
-- 🔐 User authentication with Firebase  
-- 🧾 User signup, login, and logout  
-- 🖼 Profile management with image upload  
-- 📅 Event listing and detailed event view  
-- 🔗 Full integration of frontend, backend, and PostgreSQL  
-- 💾 Firebase for media and user session handling  
-- 🛠 Planned: Notifications, social login, push alerts
+-  User authentication with Firebase  
+-  User signup, login, and logout  
+-  Profile management with image upload  
+-  Event listing and detailed event view  
+-  Full integration of frontend, backend, and PostgreSQL  
+-  Firebase for media and user session handling  
+-  Planned: Notifications, social login, push alerts
 
 ---
 
